@@ -8,9 +8,12 @@ import javax.persistence.Id;
 @Entity
 public class EmployeePayrollData {
     @Id
-    private long employeeId;
+    private int employeeId;
     private String name;
     private long salary;
+
+    public EmployeePayrollData() {
+    }
 
     public EmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO){
 
@@ -23,7 +26,7 @@ public class EmployeePayrollData {
         return employeeId;
     }
 
-    public void setEmployeeId(long employeeId) {
+    public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
     }
 
