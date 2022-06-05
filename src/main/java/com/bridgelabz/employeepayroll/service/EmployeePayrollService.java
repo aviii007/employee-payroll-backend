@@ -35,13 +35,13 @@ public class EmployeePayrollService implements IEmployeePayrollService {
        EmployeePayrollData empData = this.getEmployeePayrollDataById(empId);
        empData.setName(employeePayrollDTO.name);
        empData.setSalary(employeePayrollDTO.salary);
-       empDataList.set((int) empId-1, empData);
+       empDataList.set( empId-1, empData);
        return empData;
     }
 
     @Override
     public void deleteEmployeePayrollData(int empId) {
-        empDataList.remove((int) (empId-1));
+        empDataList.remove(empId-1);
 
     }
 }
