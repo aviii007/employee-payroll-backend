@@ -10,7 +10,7 @@ public class EmployeePayrollDTO {
 
     @NotEmpty(message = "Employee name can not be null")
     public String name;
-    @Min(value = 500, message = "Minimum wage should be more tha 500")
+    @Min(value = 500, message = "Minimum salary should be more tha 500")
     public long salary;
 
     public EmployeePayrollDTO(String name, long salary){
