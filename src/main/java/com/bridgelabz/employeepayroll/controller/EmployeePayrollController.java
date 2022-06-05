@@ -14,6 +14,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -65,7 +66,7 @@ public class EmployeePayrollController {
      * @return - ResponseEntity consisting response DTO and Status Code.
      */
     @PostMapping("/create")
-    public ResponseEntity<ResponseDTO> createEmployeePayrollData(@RequestBody EmployeePayrollDTO empPayrollDTO) {
+    public ResponseEntity<ResponseDTO> createEmployeePayrollData(@Valid @RequestBody EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData empData = null;
         empData = employeePayrollService.createEmployeePayrollData(empPayrollDTO);
         ResponseDTO respDTO = new ResponseDTO("Created employee Payroll data successfully", empData);
@@ -99,7 +100,7 @@ public class EmployeePayrollController {
     public ResponseEntity<ResponseDTO> deleteEmployeePayrollData(@PathVariable("empId") int empId) {
         employeePayrollService.deleteEmployeePayrollData(empId);
         ResponseDTO respDTO = new ResponseDTO("Deleted successfully", "Deleted id: " + empId);
-        return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
+        return new ResponseEntity<>(respDTO, HttpStatus.OK);
     }
 
 }
