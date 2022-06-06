@@ -34,7 +34,7 @@ public class EmployeePayrollController {
      *
      * @return - ResponseEntity consisting response DTO and Status code.
      */
-    @GetMapping("/getEmpInfo")
+    @RequestMapping("/getEmpInfo")
     public ResponseEntity<ResponseDTO> getEmployeePayrollData() {
         List<EmployeePayrollData> empDataList = null;
         empDataList = employeePayrollService.getEmployeePayrollData();
