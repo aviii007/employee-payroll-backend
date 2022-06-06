@@ -1,10 +1,15 @@
 package com.bridgelabz.employeepayroll.model;
 
 import com.bridgelabz.employeepayroll.dto.EmployeePayrollDTO;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import lombok.Data;
+import lombok.ToString;
+
+import javax.persistence.*;
 
 @Entity
+@Data
+@ToString
+@Table(name = "EmployeePayroll")
 public class EmployeePayrollData {
     @Id
     private int employeeId;
@@ -12,6 +17,9 @@ public class EmployeePayrollData {
     private long salary;
 
     public EmployeePayrollData() {
+    }
+
+    public EmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
     }
 
     public EmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO){
