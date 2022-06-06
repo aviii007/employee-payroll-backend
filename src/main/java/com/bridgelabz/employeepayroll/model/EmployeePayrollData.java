@@ -1,7 +1,6 @@
 package com.bridgelabz.employeepayroll.model;
 
 import com.bridgelabz.employeepayroll.dto.EmployeePayrollDTO;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
