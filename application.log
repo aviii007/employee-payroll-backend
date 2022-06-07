@@ -22,3 +22,10 @@
 2022-06-07 01:11:44.407  WARN 8044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-06-07 01:11:45.406  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.964 seconds (JVM running for 9.911)
 2022-06-07 01:11:45.412  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-06-07 01:15:10.047  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 8896 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
+2022-06-07 01:15:10.052 DEBUG 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-07 01:15:10.053  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-07 01:15:16.641  WARN 8896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-07 01:15:17.651  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.6 seconds (JVM running for 9.538)
+2022-06-07 01:15:17.657  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-06-07 09:55:17.815  WARN 8896 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h12m55s463ms363µs337ns).
