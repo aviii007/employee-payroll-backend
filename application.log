@@ -1,31 +1,163 @@
-2022-06-07 00:07:33.018  INFO 11196 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 17.0.2 on admin with PID 11196 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
-2022-06-07 00:07:33.032 DEBUG 11196 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-07 00:07:33.034  INFO 11196 --- [restartedMain] c.b.e.EmployeePayrollApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-06-07 00:07:42.852  WARN 11196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-07 00:07:44.231  INFO 11196 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 12.569 seconds (JVM running for 15.306)
-2022-06-07 00:07:44.237  INFO 11196 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Employee payroll App Started
-2022-06-07 00:30:21.498  INFO 1940 --- [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 17.0.2 on admin with PID 1940 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
-2022-06-07 00:30:21.504 DEBUG 1940 --- [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-07 00:30:21.505  INFO 1940 --- [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2022-06-07 00:30:29.157  WARN 1940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-07 00:30:30.326  INFO 1940 --- [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.162 seconds (JVM running for 11.28)
-2022-06-07 00:30:30.330  INFO 1940 --- [main] c.b.e.EmployeePayrollApplication         : Employee payroll App Started
-2022-06-07 00:36:09.615  INFO 10800 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 10800 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
-2022-06-07 00:36:09.620 DEBUG 10800 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-07 00:36:09.621  INFO 10800 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
-2022-06-07 00:36:16.342  WARN 10800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-07 00:36:17.372  INFO 10800 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 9.029 seconds (JVM running for 10.048)
-2022-06-07 00:36:17.378  INFO 10800 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
-2022-06-07 01:11:37.687  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 8044 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
-2022-06-07 01:11:37.692 DEBUG 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-07 01:11:37.693  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
-2022-06-07 01:11:44.407  WARN 8044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-07 01:11:45.406  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.964 seconds (JVM running for 9.911)
-2022-06-07 01:11:45.412  INFO 8044 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
-2022-06-07 01:15:10.047  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 8896 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
-2022-06-07 01:15:10.052 DEBUG 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-07 01:15:10.053  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
-2022-06-07 01:15:16.641  WARN 8896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-07 01:15:17.651  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.6 seconds (JVM running for 9.538)
-2022-06-07 01:15:17.657  INFO 8896 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
-2022-06-07 09:55:17.815  WARN 8896 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h12m55s463ms363µs337ns).
+2022-06-08 00:13:53.571  INFO 9824 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 9824 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
+2022-06-08 00:13:53.586 DEBUG 9824 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-08 00:13:53.588  INFO 9824 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-08 00:13:59.804  WARN 9824 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollController': Unsatisfied dependency expressed through field 'employeePayrollService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+2022-06-08 00:13:59.989 ERROR 9824 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollController': Unsatisfied dependency expressed through field 'employeePayrollService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.employeepayroll.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:19) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 44 common frames omitted
+
+2022-06-08 00:14:46.114  INFO 3244 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 3244 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
+2022-06-08 00:14:46.119 DEBUG 3244 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-08 00:14:46.121  INFO 3244 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-08 00:14:51.617  WARN 3244 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollController': Unsatisfied dependency expressed through field 'employeePayrollService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+2022-06-08 00:14:51.719 ERROR 3244 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollController': Unsatisfied dependency expressed through field 'employeePayrollService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.employeepayroll.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:19) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeePayrollService': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayroll.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.bridgelabz.employeepayroll.model.EmployeePayrollData
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:233) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:182) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:165) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:76) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328) ~[spring-data-commons-2.7.0.jar:2.7.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.7.0.jar:2.7.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 44 common frames omitted
+
+2022-06-08 00:16:01.111  INFO 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on admin with PID 9544 (F:\Tomcat\employee-payroll\target\classes started by HOME in F:\Tomcat\employee-payroll)
+2022-06-08 00:16:01.117 DEBUG 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-08 00:16:01.120  INFO 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2022-06-08 00:16:08.610  WARN 9544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-08 00:16:09.681  INFO 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 9.625 seconds (JVM running for 10.635)
+2022-06-08 00:16:09.687  INFO 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2022-06-08 00:16:09.690  INFO 9544 --- [main] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root 
+2022-06-08 07:53:17.531  WARN 9544 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h59m30s404ms714µs422ns).
+2022-06-08 08:11:27.118  WARN 9544 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m9s439ms641µs735ns).
